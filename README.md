@@ -1,12 +1,12 @@
-# Trust Wallet Assets Info
+# BTI Wallet Assets Info
 
-![Check](https://github.com/trustwallet/assets/workflows/Check/badge.svg)
+![Check](https://github.com/btigrouplabs/assets/workflows/Check/badge.svg)
 
 ## Overview
 
-Trust Wallet token repository is a comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.
+BTI Wallet token repository is a comprehensive, up-to-date collection of information about several thousands (!) of crypto tokens.
 
-[Trust Wallet](https://trustwallet.com) uses token logos from this source, alongside a number of other projects.
+[BTI Wallet](https://btigroup.ee/wallet) uses token logos from this source, alongside a number of other projects.
 
 The repository contains token info from several blockchains, info on dApps, staking validators, etc.
 For every token a logo and optional additional information is available (such data is not available on-chain).
@@ -17,8 +17,8 @@ Such a large collection can be maintained only through a community effort, so _f
 
 ## How to add token
 
-Please note that __brand new tokens are not accepted__,
-the projects have to be sound, with information available, and __non-minimal circulation__
+Please note that **brand new tokens are not accepted**,
+the projects have to be sound, with information available, and **non-minimal circulation**
 (for limit details see <https://developer.trustwallet.com/listing-new-assets/requirements>).
 
 ### Assets App
@@ -30,7 +30,6 @@ The [Assets web app](https://assets.trustwallet.com) can be used for most new to
 Details of the repository structure and contribution guidelines are listed on the
 [Developers site](https://developer.trustwallet.com/listing-new-assets/new-asset).
 Here is a quick starter summary for the most common use case.
-
 
 ## Documentation
 
@@ -56,7 +55,7 @@ There are several scripts available for maintainers:
 This repo contains a set of scripts for verification of all the information. Implemented as Golang scripts, available through `make check`, and executed in CI build; checks the whole repo.
 There are similar check logic implemented:
 
-- in assets-management app; for checking changed token files in PRs, or when creating a PR.  Checks diffs, can be run from browser environment.
+- in assets-management app; for checking changed token files in PRs, or when creating a PR. Checks diffs, can be run from browser environment.
 - in merge-fee-bot, which runs as a GitHub app shows result in PR comment. Executes in a non-browser environment.
 
 ## Trading pair maintenance
@@ -69,10 +68,10 @@ There are also options for force-include and force-exclude in the config.
 
 ## Disclaimer
 
-Trust Wallet team allows anyone to submit new assets to this repository. However, this does not mean that we are in direct partnership with all of the projects.
+BTI Wallet team allows anyone to submit new assets to this repository. However, this does not mean that we are in direct partnership with all of the projects.
 
-Trust Wallet team will reject projects that are deemed as scam or fraudulent after careful review.
-Trust Wallet team reserves the right to change the terms of asset submissions at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
+BTI Wallet team will reject projects that are deemed as scam or fraudulent after careful review.
+BTI Wallet team reserves the right to change the terms of asset submissions at any time due to changing market conditions, risk of fraud, or any other factors we deem relevant.
 
 Additionally, spam-like behavior, including but not limited to mass distribution of tokens to random addresses will result in the asset being flagged as spam and possible removal from the repository.
 

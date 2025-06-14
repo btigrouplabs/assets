@@ -119,7 +119,7 @@ func AddTokenToTokenListJSON(chain coin.Coin, assetID, tokenID string, tokenList
 	list.Tokens = append(list.Tokens, newToken)
 
 	data, err := libFile.PrepareJSONData(&tokenlist.Model{
-		Name:      fmt.Sprintf("Trust Wallet: %s", coin.Coins[chain.ID].Name),
+		Name:      fmt.Sprintf("BTI Wallet: %s", coin.Coins[chain.ID].Name),
 		LogoURI:   config.Default.URLs.Logo,
 		Timestamp: time.Now().Format(config.Default.TimeFormat),
 		Tokens:    list.Tokens,
